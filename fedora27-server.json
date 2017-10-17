@@ -1,0 +1,12 @@
+{
+  "_comment": "Build with `packer build -var-file=fedora27-server.json fedora.json`",
+  "vm_name": "fedora27-server",
+  "cpus": "1",
+  "disk_size": "65536",
+  "iso_checksum": "5e2b6721320559f7692c7041f41e8d5827af00f4bfb5802365d415a7a9137998",
+  "iso_checksum_type": "sha256",
+  "iso_name": "Fedora-Everything-netinst-x86_64-27_Beta-1.5.iso",
+  "iso_url": "https://download.fedoraproject.org/pub/fedora/linux/releases/27/Server/x86_64/iso/Fedora-Everything-netinst-x86_64-27_Beta-1.5.iso",
+  "kickstart": "ks-fedora27-server.cfg",
+  "memory": "2048"
+}
