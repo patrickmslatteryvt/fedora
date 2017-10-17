@@ -93,6 +93,7 @@
     {
       "keep_input_artifact": false,
       "output": "box/{{.Provider}}/{{ user `vm_name` }}-{{ user `version` }}.box",
+      "vagrantfile_template": "tpl/{{ user `vagrantfile_template` }}",
       "type": "vagrant"
     }
   ],
@@ -149,4 +150,3 @@
     "vmware_guest_os_type": "fedora-64"
   }
 }
-

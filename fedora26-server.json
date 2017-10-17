@@ -8,5 +8,6 @@
   "iso_name": "Fedora-Server-dvd-x86_64-26-1.5.iso",
   "iso_url": "https://download.fedoraproject.org/pub/fedora/linux/releases/26/Server/x86_64/iso/Fedora-Server-dvd-x86_64-26-1.5.iso",
   "kickstart": "ks-fedora26-server.cfg",
-  "memory": "2048"
+  "memory": "2048",
+  "vagrantfile_template": "vagrantfile-fedora26-server.tpl"
 }
